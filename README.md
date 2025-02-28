@@ -6,19 +6,26 @@ This can be useful for evaluating hardware capabilities and debugging performanc
 
 ## Usage
 To run the test, execute:
+
 `python stress_test.py --device cuda #for GPU`
+
 or 
+
 `python stress_test.py --device cpu   # For CPU`
 
 Alternatively, use the provided bash script:
+
 `bash run_test.sh`
 
 ## Customization
 Modify the script parameters to test different configurations:
+
 `python stress_test.py --device cuda --batch_size 512 --epochs 20`
 
 # Licence
+
 This project is open-source and available under the MIT License.
 
 # Contributions
+
 Feel free to submit issues or pull requests to improve the test.
